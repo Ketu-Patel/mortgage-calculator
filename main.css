@@ -18,12 +18,41 @@
 
 .flex-child {
     flex: 1;
-    background-color: #DAD9DF;
-    
+    background-color: #DAD9DF; 
+    padding: 1%;    
     border: 2px solid #26364F;
 }  
 
 .flex-child:first-child {
-    margin-right: 20px;
-    background-color:#3DA4CF;
+    background-color:#DAD9DF;
 } 
+
+label{
+    padding-left: 5%;
+    padding-right: 1%;
+    line-height: 40px;
+    
+}
+button {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #B2A378;
+    border: solid 1px transparent;
+    color: #26364F;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 70%;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    background-color: #26364F;
+    border-color: #26364F;
+    color: #FFFFFF;
+    transition: all .1s ease-in-out;
+}
+
