@@ -1,0 +1,29 @@
+/* Color Theme Swatches in Hex */
+.Preppy-Business-1-hex { color: #B2A378; }
+.Preppy-Business-2-hex { color: #26364F; }
+.Preppy-Business-3-hex { color: #DAD9DF; }
+.Preppy-Business-4-hex { color: #3DA4CF; }
+.Preppy-Business-5-hex { color: #FFFFFF; }
+
+.instructions{
+    text-align: center;
+    background-color: #B2A378;
+    padding:1%;
+}
+
+.flex-container {
+    display: flex;
+    padding: 1%;
+}
+
+.flex-child {
+    flex: 1;
+    background-color: #DAD9DF;
+    
+    border: 2px solid #26364F;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+    background-color:#3DA4CF;
+} 
