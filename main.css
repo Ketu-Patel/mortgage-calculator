@@ -13,11 +13,13 @@
 
 .flex-container {
     display: flex;
+    background-color: #26364F;
     padding: 1%;
 }
 
 .flex-child {
     flex: 1;
+    margin: 1%;
     background-color: #DAD9DF; 
     padding: 1%;    
     border: 2px solid #26364F;
@@ -54,5 +56,22 @@ button:hover {
     border-color: #26364F;
     color: #FFFFFF;
     transition: all .1s ease-in-out;
+}
+
+.output{
+    background-color: #DAD9DF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding-left: 1%;
+
+}
+.table{
+    display: flex;
+    padding: 1%;
+    background-color: #3DA4CF;
+    width:auto;
+    height:138px;
+
 }
 

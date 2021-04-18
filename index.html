@@ -13,24 +13,24 @@
     </div>
     <div class ="flex-container Preppy-Business-2-hex">
         <div class = "flex-child all-input">
-            <form>
-            <label for="loan-amount">Loan Amount:</label>
-            <input type="number" id="loan-amount" name="loan-amount">
-            <br>
-            <label for="term-length">Term(Months):</label>
-            <input type="number" id="term-length" name="term-length">
-            <br>
-            <label for="interest-rate">Interest Rate:</label>
-            <input type="number" id="interest-rate" name="interest-rate">
-            
-            <button type="button" id ="calculate" class = "btn" onclick="myFunction()">Calculate</button> 
+            <form id="addForm" name="addForm">
+                    <label for="loan">Loan Amount:</label>
+                    <input type="number" id="loan" name="loan">
+                    <br>
+                    <label for="term">Term(Months):</label>
+                    <input type="number" id="term" name="term">
+                    <br>
+                    <label for="interest">Interest Rate (%):</label>
+                    <input type="number" id="interest" name="interest">       
             </form>
+            <button type="button" id ="calculate" class = "btn" onclick= "myFunction(addForm);">Calculate</button>
         </div>
         <div class = "flex-child output">
-            <h3>Output will be displayed here</h3>
+            <p id="hehe">Output will be displayed here</p>
         </div>
     </div>
-
+    <div class="table">
+    </div>
 
 </body>
 </html>
